@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-mock",
+  "version": "0.0.1",
+  "description": "Node that records and replays message payload. Useful for testing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmed Al Hafoudh <alhafoudh@freevision.sk>",
+  "node-red": {
+    "nodes": {
+      "mock": "mock.js"
+    }
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "license": "ISC",
+  "dependencies": {
+  },
+  "main": "mock.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhafoudh/node-red-contrib-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alhafoudh/node-red-contrib-mock/issues"
+  },
+  "homepage": "https://github.com/alhafoudh/node-red-contrib-mock"
+}
